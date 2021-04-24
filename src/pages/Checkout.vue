@@ -16,7 +16,7 @@
               </div>
               <input disabled class="rounded border-black border h-8 w-7/12 
                 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500" type="text" 
-                v-model="summary.order" placeholder="One wrap of Amala + One Tilapia Fish"
+                v-model="order"
               >
             </div>
             <div class="flex justify-between mt-3">
@@ -25,7 +25,7 @@
               </div>
               <input class="rounded border-black border h-8 w-7/12
                 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500" type="number" 
-                v-model="summary.quantity"
+                v-model="quantity"
               >
             </div>
               <div class="flex justify-between mt-3">
@@ -34,7 +34,7 @@
               </div>
               <input disabled class="rounded border-black border h-8 w-7/12
                 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500" type="text" 
-                v-model="summary.price" placeholder="1000"
+                v-model="price" placeholder="1000"
               >
             </div>
           </div>
@@ -59,7 +59,7 @@
               <div>
                 <label class="">Quantities:</label>
               </div>
-              <div><p>{{ summary.quantity }}</p></div>
+              <div><p>{{ quantity }}</p></div>
             </div>
             <div class="flex justify-between mt-3">
               <div>
@@ -73,9 +73,8 @@
               </div>
               <input disabled class="rounded border-black border h-8 w-7/12
                 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500" type="text" 
-                :value="summary.quantity * 1000 + 500" placeholder="1000"
+                :value="quantity * 1000 + 500" placeholder="1000"
               >              
-              <!-- <div><p>N1500</p></div> -->
             </div>
           </div>
           </form>
@@ -99,19 +98,12 @@ export default {
   data(){
     return{
       currentstep:1,
-      summary:[
-        {order:'', quantity:'', price:'', delivery:'', totalcost:''}
-      ]
+      order:'One wrap of Amala + One Tilapia Fish',
+      quantity:'1',
+      price:'1000',
+      totalcost:'',
     }
   },
-  // computed: {
-  //   total: function(){
-  //     let calculatedtotal = this.summary.quantity * this.summary.price
-  //     this.summary.totalcost = calculatedtotal;
-
-  //     return calculatedtotal
-  //   }
-  // },
   methods:{
     next(){
       this.currentstep++

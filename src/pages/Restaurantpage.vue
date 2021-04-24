@@ -6,7 +6,7 @@
       <div><p class="font-semibold text-center mt-5 text-2xl">Welcome to, <span class="font-bold">AMALA SKYE E-RESTAURANT</span></p></div>
 
       <div class="grid grid-cols-4 text-center font-semibold px-2">
-        <div class="bg-yellow-700 text-white font-bold h-12 text-sm"><p class="pt-1">AVERAGE DELIVERY TIME</p></div>
+        <div class="bg-yellow-700 text-white font-bold h-12 text-sm"><p class="pt-1">EST DELIVERY TIME</p></div>
         <div class="bg-yellow-700 text-white font-bold h-12 border-white border text-sm"><p class="pt-1">ORDER STARTS</p></div>
         <div class="bg-yellow-700 text-white font-bold h-12 border-white border text-sm"><p class="pt-1">ORDER ENDS</p></div>
         <div class="bg-yellow-700 text-white font-bold h-12 border-white border text-sm"><p class="pt-1">RATINGS</p></div>
