@@ -2,7 +2,7 @@
   <Allheader />
   
   <section class="mt-6 mb-6">
-    <button class="px-5 lg:hidden" @click="showfilters =! showfilters">Filter</button>
+    <button class="px-5 lg:hidden" @click="showfilters =! showfilters">Hide/show Filter</button>
     <div v-if="showfilters" class="flex flex-col justify-between px-5 sm:flex-col md:flex-col lg:flex-row">
       <div class="mt-2 mb-2">
         <label>Choose City</label>

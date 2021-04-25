@@ -3,22 +3,22 @@
     <Allheader />
     <div>
       <div class="mt-16 text-center font-bold text-4xl"><p>Choose to be served</p></div>
-      <div class="mt-5 grid grid-cols-2 text-white font-bold text-xl overflow-x-hidden">
+      <div class="mt-5 grid grid-cols-2 px-10 text-white font-bold text-xl overflow-x-hidden">
         <a href="Getfood" class="bg-blue-500 h-44 rounded-md m-3 transform hover:scale-105 motion-reduce:transform-none 
             transition delay-200 duration-300 ease-in-out">
           <p class="text-center mt-16">FOOD</p>
         </a>
-        <a href="#" class="bg-blue-500 h-44 rounded-md m-3 transform hover:scale-105 motion-reduce:transform-none 
+        <a href="Getfood" class="bg-blue-500 h-44 rounded-md m-3 transform hover:scale-105 motion-reduce:transform-none 
           transition delay-200 duration-300 ease-in-out"
         >
           <p class="text-center mt-16">GROCERY</p>
         </a>
-        <a href="#" class="bg-blue-500 h-44 rounded-md m-3 transform hover:scale-105 motion-reduce:transform-none 
+        <a href="Getfood" class="bg-blue-500 h-44 rounded-md m-3 transform hover:scale-105 motion-reduce:transform-none 
           transition delay-200 duration-300 ease-in-out"
         >
           <p class="text-center mt-16">PHARMACY</p>
         </a>
-        <a href="#" class="bg-blue-500 h-44 rounded-md m-3 transform hover:scale-105 motion-reduce:transform-none 
+        <a href="Getfood" class="bg-blue-500 h-44 rounded-md m-3 transform hover:scale-105 motion-reduce:transform-none 
           transition delay-200 duration-300 ease-in-out"
         >
           <p class="text-center mt-16">HOME APPLIANCES</p>
