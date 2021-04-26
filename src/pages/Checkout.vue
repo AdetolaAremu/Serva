@@ -57,6 +57,12 @@
             </div>
             <div class="flex justify-between mt-3">
               <div>
+                <label class="">Price:</label>
+              </div>
+              <div><p>{{ price }}</p></div>
+            </div>
+            <div class="flex justify-between mt-3">
+              <div>
                 <label class="">Quantities:</label>
               </div>
               <div><p>{{ quantity }}</p></div>

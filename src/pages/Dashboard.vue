@@ -2,41 +2,49 @@
   <Allheader />
 
   <section class="mb-10 mt-7">
-    <div class="px-10">
-      <p class="bg-gray-300 h-10 rounded-2xl px-2 py-2">Welcome, <span class="font-bold">AMALA SKYE RESTAURANT</span></p>
+    <div class="px-9">
+      <p class="bg-gray-300 h-10 rounded-2xl text-center px-1 py-2">Welcome, <span class="font-bold">AMALA SKYE RESTAURANT</span></p>
     </div>
-    <div class="mt-2 px-10">
-        <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
-          <div class="bg-green-600 h-32 w-52 rounded-lg text-white">
-            <p class="pt-5 px-2">Total Amount Earned</p>
-            <p class="font-bold pt-8 text-right px-2">850,000 (Naira)</p>
-          </div>
-          <div class="bg-green-600 h-32 w-52 rounded-lg text-white">
-              <p class="pt-5 px-2">Current Balance</p>
-              <p class="font-bold pt-8 text-right px-2">45,000 (Naira)</p>
-          </div>
-          <div class="bg-green-600 h-32 w-52 rounded-lg text-white">
-              <p class="pt-5 px-2">Total Meals Delivered</p>
-              <p class="font-bold pt-8 text-right px-2">589</p>
-          </div>
+    <div class="mt-2 px-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div class="bg-green-600 m-2 h-32 w-52 rounded-lg text-white
+        hover:bg-green-800"
+      >
+        <p class="px-2 pt-5">Total Amount Earned</p>
+        <p class="font-bold pt-8 text-right px-2">850,000 (Naira)</p>
+      </div>
+        <div class="bg-green-600 m-2 h-32 w-52 rounded-lg text-white
+          hover:bg-green-800"
+        >
+          <p class="px-2 pt-5">Current Balance</p>
+          <p class="font-bold pt-8 text-right px-2">45,000 (Naira)</p>
         </div>
-        <div class="grid mt-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
-          <a href="#">
-            <div class="bg-indigo-600 h-32 w-52 rounded-lg text-white">
-              <p class="pt-5 px-2">Pending Orders</p>
-              <p class="font-bold pt-8 text-right px-2">3</p>
-            </div>
-          </a>
-          <a href="#">
-            <div class="bg-gray-700 h-32 w-52 rounded-lg text-white">
-              <p class="pt-5 px-2">Unfilled Orders</p>
-              <p class="font-bold pt-8 text-right px-2">5</p>
-            </div>
-          </a>
-          <div class="bg-yellow-600 h-32 w-52 rounded-lg text-white">
-            <p class="pt-5 px-2">Ratings</p>
-            <p class="font-bold pt-8 text-right px-2">4.3/5</p>
+        <div class="bg-green-600 m-2 h-32 w-52 rounded-lg text-white
+          hover:bg-green-800"
+        >
+          <p class="px-2 pt-5">Total Meals Delivered</p>
+          <p class="font-bold pt-8 text-right px-2">589</p>
+        </div>
+        <a href="#">
+          <div class="bg-indigo-600 m-2 h-32 w-52 rounded-lg text-white
+            hover:bg-indigo-800"
+          >
+            <p class="px-2 pt-5">Pending Orders</p>
+            <p class="font-bold pt-8 text-right px-2">3</p>
           </div>
+        </a>
+        <a href="#">
+          <div class="bg-gray-700 m-2 h-32 w-52 rounded-lg text-white
+            hover:bg-gray-600"
+          >
+            <p class="px-2 pt-5">Unfilled Orders</p>
+            <p class="font-bold pt-8 text-right px-2">5</p>
+          </div>
+        </a>
+        <div class="bg-yellow-600 m-2 h-32 w-52 rounded-lg text-white
+          hover:bg-yellow-800"
+        >
+          <p class="pt-5 px-2">Ratings</p>
+          <p class="font-bold pt-8 text-right px-2">4.3/5</p>
         </div>
     </div>
 
@@ -45,7 +53,7 @@
         <div><p class="font-bold">Available Meals ({{ mealength }})</p></div>
       </div>
       <div class="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1">
-        <div class="flex justify-between bg-gray-300 py-2 px-3 rounded-md m-2" v-for="(meal, index) in meals" :key="index">
+        <div class="flex justify-between bg-gray-300 py-2 px-3 rounded-md m-2 hover:bg-blue-200" v-for="(meal, index) in meals" :key="index">
           <span class="flex">
             <span><img class="h-20 w-20 rounded-full" :src="meal.src" alt=""></span>
             <span class="ml-3 mt-5 flex-col flex">
