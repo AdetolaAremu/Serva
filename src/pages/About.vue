@@ -2,8 +2,12 @@
   <Allheader />
 
   <section class="mt-3 px-5 mb-5">
-    <div><p class="text-center text-2xl font-bold">Adetola, AREMU</p></div>
+    <div><p class="text-center text-2xl font-bold">ADETOLA, AREMU</p></div>
     <div><p class="text-center text-lg font-semibold">Location: Lagos, Nigeria.</p></div>
+    <a href="mailto:{aremutola@gmail.com}" class="flex justify-center">
+      <p class="font-bold p-2 underline">SEND ME A MAIL</p>
+    </a>
+
     <div class="flex justify-between mt-5">
       <div class="font-semibold text-gray-700 mt-3">
         <p>The framework used in developing this website is <span class="font-bold bg-green-600 text-white p-1 rounded-md">VUE.JS</span></p>
@@ -16,18 +20,31 @@
       </div>
     </div>
     <div>
-      <div><p class="font-semibold">SKILLED IN:</p></div>
-      <div class="grid grid-cols-5 text-center">
+      <div><p class="font-semibold mt-2">SKILLED IN:</p></div>
+      <div class="grid text-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5">
         <p class="font-bold bg-green-600 text-white p-1 w-44 m-2 rounded-md">VUE.JS</p>
         <p class="reactcol font-bold bg-gray-700 p-1 w-44 m-2 rounded-md">REACT (in-view)</p>
         <p class="font-bold bg-yellow-500 text-black p-1 w-44 m-2 rounded-md">JAVASCRIPT</p>
         <p class="font-bold bg-red-400 text-black p-1 w-44 m-2 rounded-md">HTML 5</p>
         <p class="font-bold bg-blue-600 text-white p-1 w-44 m-2 rounded-md">CSS 3</p>
-        <p class="font-bold bg-gray-200 text-black p-1 w-44 m-2 rounded-md">TAILWDIND CSS</p>
+        <p class="font-bold bg-gray-200 text-black p-1 w-44 m-2 rounded-md">TAILWIND CSS</p>
         <p class="font-bold bg-indigo-600 text-white p-1 w-44 m-2 rounded-md">BOOTSTRAP 5</p>
         <p class="font-bold bg-gray-300 text-black p-1 w-44 m-2 rounded-md"><span class="text-blue-800">My</span><span class="text-yellow-500">SQL</span></p>
         <p class="font-bold bg-indigo-400 text-white p-1 w-44 m-2 rounded-md">Panda (Python)</p>
         <p class="font-bold bg-indigo-400 text-white p-1 w-44 m-2 rounded-md">Matplotlib (Python)</p>
+      </div>
+    </div>
+    <div class="mt-4">
+      <div class="container">
+        <div class="slider-wrapper">
+          I am Looking for a
+          <div class="slider">
+            <div class="text1">Full Time</div>
+            <div class="text2">Contract</div>
+            <div class="text3">Internship</div>
+          </div>
+          role
+        </div>
       </div>
     </div>
   </section>
@@ -43,7 +60,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .reactcol{
   color:aqua
 }
@@ -85,17 +102,49 @@ export default {
     100% { transform: rotate(-3deg); }
 }
 
-/* 
-@keyframes swing {
-  0%, 100% { transform: rotate(-20deg); }
-  20% {transform:scale(.95);}
-  50% { transform: rotate(20deg); }
-  80% {transform:scale(.95);}
+.slider-wrapper {
+  font-size: 35px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.ppix {
-  animation: swing 2s infinite ease-in-out;
-} */
+.slider {
+  height: 50px;
+  overflow: hidden;
+  padding: 0 10px;
+}
 
+.slider > div {
+  box-sizing: border-box;
+  color: #FFF;
+  height: 50px;
+  margin-bottom: 50px;
+  padding: -1px s10px;
+  text-align: center;
+}
 
+.text1 {
+  background-color: #2ed573;
+  animation: slide 5s linear infinite;
+}
+
+.text2 {
+  background-color: #ffa502;
+}
+
+.text3 {
+  background-color: #ff4757;
+}
+
+@keyframes slide {
+  0% { margin-top: -300px; }
+  5% { margin-top: -200px; }
+  33% { margin-top: -200px; }
+  38% { margin-top: -100px; }
+  66% { margin-top: -100px; }
+  72% { margin-top: -0; }
+  100% { margin-top: 0; }
+}
 </style>
