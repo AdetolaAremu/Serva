@@ -10,19 +10,30 @@
           <p class="text-5xl font-bold">CHOOSE TO GET SERVED,</p>
           <p class="mt-5 text-4xl font-bold">BE SERVED.</p>
           <div class="sm:w-full md:w-full lg:w-7/12">
-            <p class="mt-6">Pick to get served in the best possible way</p>
+            <p class="mt-6">Choose to get served in the best possible way</p>
             <p class="mt-1">Your order will be delivered to your doorstep</p>
-            <p class="mt-1">Choose from our wide varities of our services</p>
+            <p class="mt-1">Choose from wide varities of options for you</p>
             <p class="mt-1">
               Such as <span class="font-bold">Food</span>, <span class="font-bold">Groceries</span>, 
-              <span class="font-bold">Pharmaceutial</span> and <span class="font-bold">Home Appliances</span> deliveries
+              <span class="font-bold">Pharmaceutial</span> and <span class="font-bold">Gadgets</span> deliveries
             </p>
           </div>
-          <a href='Buy'>
-            <button class="mt-20 mb-4 w-28 h-10 rounded-lg font-bold border-white bg-blue-600">
-              SLIDE IN
-            </button>
-          </a>
+          <div>
+            <a href='Buy' class="mr-5">
+              <button class="mt-20 mb-4 w-36 h-14 rounded-lg font-bold border-white bg-blue-600 transform
+                hover:scale-125 motion-reduce:transform transition delay-200 duration-300 ease-in-out"
+              >
+                SLIDE IN
+              </button>
+            </a>
+            <a href='#'>
+              <button class="mt-20 mb-4 w-32 h-12 rounded-lg font-bold border-1 bg-gray-600 transform
+                hover:scale-105 motion-reduce:transform transition delay-200 duration-300 ease-in-out"
+              >
+                LEARN MORE
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -39,6 +50,6 @@ export default {
 <style>
 .homehead {
   background: rgb(202,8,208);
-  background: linear-gradient(90deg, rgba(202,8,208,1) 19%, rgba(231,150,230,1) 40%, rgba(255,44,147,1) 70%, rgba(238,8,125,1) 94%);
+  background: linear-gradient(90deg, rgba(202,8,208,1) 19%, rgba(255,44,147,1) 70%, rgba(238,8,125,1) 94%);
 }
 </style>
