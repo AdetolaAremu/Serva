@@ -5,7 +5,7 @@
     <div><p class="text-center text-2xl font-bold">ADETOLA, AREMU</p></div>
     <div><p class="text-center text-lg font-semibold">Location: Lagos, Nigeria.</p></div>
     <a href="mailto:{aremutola@gmail.com}" class="flex justify-center">
-      <p class="font-bold p-2 underline">SEND ME A MAIL</p>
+      <p class="font-bold p-2 text-red-600 text-lg sm:text-lg">SEND ME A MAIL</p>
     </a>
 
     <div class="flex justify-between mt-5">
@@ -146,5 +146,22 @@ export default {
   66% { margin-top: -100px; }
   72% { margin-top: -0; }
   100% { margin-top: 0; }
+}
+
+@media (max-width: 640px) {
+  .slider-wrapper {
+    font-size: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .slider {
+    height: 30px;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: 6px 0px;
+  }
 }
 </style>

@@ -6,19 +6,19 @@
       <p class="bg-gray-300 h-10 rounded-2xl text-center px-1 py-2">Welcome, <span class="font-bold">AMALA SKYE RESTAURANT</span></p>
     </div>
     <div class="mt-2 px-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-      <div class="bg-green-600 m-2 h-32 w-52 rounded-lg text-white
+      <div class="bg-green-600 m-2 h-32 w-52 rounded-lg text-white cursor-pointer
         hover:bg-green-800"
       >
         <p class="px-2 pt-5">Total Amount Earned</p>
         <p class="font-bold pt-8 text-right px-2">850,000 (Naira)</p>
       </div>
-        <div class="bg-green-600 m-2 h-32 w-52 rounded-lg text-white
+        <div class="bg-green-600 m-2 h-32 w-52 rounded-lg text-white cursor-pointer
           hover:bg-green-800"
         >
           <p class="px-2 pt-5">Current Balance</p>
           <p class="font-bold pt-8 text-right px-2">45,000 (Naira)</p>
         </div>
-        <div class="bg-green-600 m-2 h-32 w-52 rounded-lg text-white
+        <div class="bg-green-600 m-2 h-32 w-52 rounded-lg text-white cursor-pointer
           hover:bg-green-800"
         >
           <p class="px-2 pt-5">Total Meals Delivered</p>
@@ -36,11 +36,11 @@
           <div class="bg-gray-700 m-2 h-32 w-52 rounded-lg text-white
             hover:bg-gray-600"
           >
-            <p class="px-2 pt-5">Unfilled Orders</p>
+            <p class="px-2 pt-5">Total Unfilled Orders</p>
             <p class="font-bold pt-8 text-right px-2">5</p>
           </div>
         </a>
-        <div class="bg-yellow-600 m-2 h-32 w-52 rounded-lg text-white
+        <div class="bg-yellow-600 m-2 h-32 w-52 rounded-lg text-white cursor-pointer
           hover:bg-yellow-800"
         >
           <p class="pt-5 px-2">Ratings</p>
