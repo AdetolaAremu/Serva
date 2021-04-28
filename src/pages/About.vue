@@ -150,7 +150,7 @@ export default {
 
 @media (max-width: 640px) {
   .slider-wrapper {
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
     display: flex;
     align-items: center;
