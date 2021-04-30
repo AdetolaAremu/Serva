@@ -5,7 +5,8 @@ import Contact from './pages/Contact';
 import Getfood from './pages/Getfood';
 import Buy from './pages/Buy';
 import Restaurantpage from './pages/Restaurantpage';
-import Checkout from './pages/Checkout'
+import Checkout from './pages/Checkout';
+import Dashboard from './pages/Dashboard'
 
 const routes = [
   {path:'/',component: Home },
@@ -14,7 +15,8 @@ const routes = [
   {path:'/Buy',component: Buy},
   {path:'/Getfood',component: Getfood},
   {path:'/Restaurantpage', component: Restaurantpage},
-  {path:'/Checkout', component: Checkout}
+  {path:'/Checkout', component: Checkout},
+  {path:'/Dashboard', component: Dashboard},
 ]
 
 const router = createRouter({

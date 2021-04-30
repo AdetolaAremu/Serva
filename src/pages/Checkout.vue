@@ -40,7 +40,10 @@
           </div>
           </form>
           <div class="mr-5 text-center">
-              <button class="border border-red-600 shadow-md text-gray-600 h-11 mr-2 px-2 py-1 w-28 rounded font-bold mt-6">BACK</button>
+              <button class="border border-red-600 shadow-md text-gray-600 
+                h-11 mr-2 px-2 py-1 w-28 rounded font-bold mt-6 "
+              >BACK
+              </button>
               <button class="bg-green-600 shadow-md h-11 mr-2 text-white px-2 py-1 w-28 rounded font-bold mt-6" @click.prevent="next()">CHECKOUT</button>
           </div>
         </div>

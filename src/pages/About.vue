@@ -22,16 +22,16 @@
     <div>
       <div><p class="font-semibold mt-2">SKILLED IN:</p></div>
       <div class="grid text-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5">
-        <p class="font-bold bg-green-600 text-white p-1 w-44 m-2 rounded-md">VUE.JS</p>
-        <p class="reactcol font-bold bg-gray-700 p-1 w-44 m-2 rounded-md">REACT (in-view)</p>
-        <p class="font-bold bg-yellow-500 text-black p-1 w-44 m-2 rounded-md">JAVASCRIPT</p>
-        <p class="font-bold bg-red-400 text-black p-1 w-44 m-2 rounded-md">HTML 5</p>
-        <p class="font-bold bg-blue-600 text-white p-1 w-44 m-2 rounded-md">CSS 3</p>
-        <p class="font-bold bg-gray-200 text-black p-1 w-44 m-2 rounded-md">TAILWIND CSS</p>
-        <p class="font-bold bg-indigo-600 text-white p-1 w-44 m-2 rounded-md">BOOTSTRAP 5</p>
-        <p class="font-bold bg-gray-300 text-black p-1 w-44 m-2 rounded-md"><span class="text-blue-800">My</span><span class="text-yellow-500">SQL</span></p>
-        <p class="font-bold bg-indigo-400 text-white p-1 w-44 m-2 rounded-md">Panda (Python)</p>
-        <p class="font-bold bg-indigo-400 text-white p-1 w-44 m-2 rounded-md">Matplotlib (Python)</p>
+        <p class="font-bold bg-green-600 text-white p-1 w-44 m-2 rounded-md hover:bg-green-800">VUE.JS</p>
+        <p class="reactcol font-bold bg-gray-700 p-1 w-44 m-2 rounded-md hover:bg-gray-500">REACT (in-view)</p>
+        <p class="font-bold bg-yellow-500 text-black p-1 w-44 m-2 rounded-md hover:bg-yellow-700">JAVASCRIPT</p>
+        <p class="font-bold bg-red-400 text-black p-1 w-44 m-2 rounded-md hover:bg-red-600">HTML 5</p>
+        <p class="font-bold bg-blue-600 text-white p-1 w-44 m-2 rounded-md hover:bg-blue-700">CSS 3</p>
+        <p class="font-bold bg-gray-200 text-black p-1 w-44 m-2 rounded-md hover:bg-gray-100">TAILWIND CSS</p>
+        <p class="font-bold bg-indigo-600 text-white p-1 w-44 m-2 rounded-md hover:bg-indigo-800">BOOTSTRAP 5</p>
+        <p class="font-bold bg-gray-300 text-black p-1 w-44 m-2 rounded-md hover:bg-gray-500"><span class="text-blue-800">My</span><span class="text-yellow-500">SQL</span></p>
+        <p class="font-bold bg-indigo-400 text-white p-1 w-44 m-2 rounded-md hover:bg-indigo-600">Panda (Python)</p>
+        <p class="font-bold bg-indigo-400 text-white p-1 w-44 m-2 rounded-md hover:bg-indigo-600">Matplotlib (Python)</p>
       </div>
     </div>
     <div class="mt-4">

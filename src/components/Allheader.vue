@@ -1,8 +1,8 @@
 <template>
   <section class="flex justify-between bg-gray-500 text-white py-5 px-10 font-bold h-14 w-full right-0">
-    <div class="mr-4">SERVA</div>
+    <a href="/"><div class="mr-4">SERVA</div></a>
     <ul class="top flex">
-      <a href="/"><li class="mr-4">Home</li></a>
+      <a href="About"><li class="mr-4">About</li></a>
       <a href="Buy"><li class="mr-4">Order</li></a>
       <a href="About"><li class="mr-4">Github</li></a>
       <a href="Dashboard"><li class="mr-4">Admin</li></a>

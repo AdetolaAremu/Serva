@@ -1,11 +1,11 @@
 <template>
   <section class="flex text-white justify-between pt-5 px-8 font-bold h-10">
-    <div class="mr-4">SERVA</div>
+    <a href="/"><div class="mr-4">SERVA</div></a>
     <ul class="top flex">
-      <a href="/"><li class="mr-4">Home</li></a>
+      <a href="About"><li class="mr-4">About</li></a>
       <a href="Buy"><li class="mr-4">Order</li></a>
       <a href="About"><li class="mr-4">Github</li></a>
-      <a href="Contact"><li class="mr-4">Admin</li></a>
+      <a href="Dashboard"><li class="mr-4">Admin</li></a>
     </ul>
   </section>
 </template>

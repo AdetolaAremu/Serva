@@ -18,11 +18,11 @@
           <p class="px-2 pt-5">Current Balance</p>
           <p class="font-bold pt-8 text-right px-2">45,000 (Naira)</p>
         </div>
-        <div class="bg-green-600 m-2 h-32 w-52 rounded-lg text-white cursor-pointer
-          hover:bg-green-800"
+        <div class="bg-yellow-600 m-2 h-32 w-52 rounded-lg text-white cursor-pointer
+          hover:bg-yellow-800"
         >
-          <p class="px-2 pt-5">Total Meals Delivered</p>
-          <p class="font-bold pt-8 text-right px-2">589</p>
+          <p class="pt-5 px-2">Ratings</p>
+          <p class="font-bold pt-8 text-right px-2">4.3/5</p>
         </div>
         <a href="#">
           <div class="bg-indigo-600 m-2 h-32 w-52 rounded-lg text-white
@@ -40,11 +40,11 @@
             <p class="font-bold pt-8 text-right px-2">5</p>
           </div>
         </a>
-        <div class="bg-yellow-600 m-2 h-32 w-52 rounded-lg text-white cursor-pointer
-          hover:bg-yellow-800"
+        <div class="bg-green-600 m-2 h-32 w-52 rounded-lg text-white cursor-pointer
+          hover:bg-green-800"
         >
-          <p class="pt-5 px-2">Ratings</p>
-          <p class="font-bold pt-8 text-right px-2">4.3/5</p>
+          <p class="px-2 pt-5">Total Meals Delivered</p>
+          <p class="font-bold pt-8 text-right px-2">589</p>
         </div>
     </div>
 
@@ -53,8 +53,10 @@
         <div><p class="font-bold">Available Meals ({{ mealength }})</p></div>
       </div>
       <div class="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1">
-        <div class="flex justify-between bg-gray-300 py-2 px-3 rounded-md m-2 hover:bg-blue-200" v-for="(meal, index) in meals" :key="index">
-          <span class="flex">
+        <div class="flex justify-between bg-gray-300 py-2 px-3 rounded-md m-2 hover:bg-blue-200" 
+          v-for="(meal, index) in meals" :key="index"
+        >
+          <span class="flex cursor-pointer">
             <span><img class="h-20 w-20 rounded-full" :src="meal.src" alt=""></span>
             <span class="ml-3 mt-5 flex-col flex">
               <span>{{ meal.name }}</span>
@@ -71,7 +73,7 @@
       <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1">
         <div class="mb-2">
           <label class="block font-semibold">Meal Picture:</label>
-          <input @change="mealpicture" type="file">
+          <input @change="showmealpicture" type="file">
         </div>
         <div class="mb-2">
           <label class="block font-semibold">Meal Name:</label>
@@ -117,7 +119,11 @@ export default {
     },
     remove(index){
       this.meals.splice(index, 1)
-    }
+    },
+    showmealpicture(event) {    	   
+      const data = URL.createObjectURL(event.target.files[0]);
+      this.mealpicture = data;
+    },
   },
   computed:{
     mealength(){
