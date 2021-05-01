@@ -40,7 +40,7 @@
           </div>
           </form>
           <div class="mr-5 text-center">
-              <button class="border border-red-600 shadow-md text-gray-600 
+              <button class="backbtn border border-red-600 shadow-md text-gray-600 
                 h-11 mr-2 px-2 py-1 w-28 rounded font-bold mt-6 "
               >BACK
               </button>
@@ -88,7 +88,9 @@
           </div>
           </form>
           <div class="mr-5 text-center">
-              <button class="border border-red-600 shadow-md text-gray-600 h-11 mr-2 px-2 py-1 w-28 rounded font-bold mt-6" @click.prevent="previous()">BACK</button>
+              <button class="backbtn border border-red-600 shadow-md text-gray-600 
+                h-11 mr-2 px-2 py-1 w-28 rounded font-bold mt-6" @click.prevent="previous()"
+              >BACK</button>
               <button @click="isModal1Open = true" class="bg-green-600 shadow-md h-11 mr-2 text-white 
                 px-2 py-1 w-28 rounded font-bold mt-6"
               >PAY</button>
@@ -149,5 +151,8 @@ export default {
 </script>
 
 <style>
-
+.backbtn:hover{
+  background-color: red;
+  color: white;
+}
 </style>
