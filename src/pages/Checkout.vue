@@ -89,10 +89,27 @@
           </form>
           <div class="mr-5 text-center">
               <button class="border border-red-600 shadow-md text-gray-600 h-11 mr-2 px-2 py-1 w-28 rounded font-bold mt-6" @click.prevent="previous()">BACK</button>
-              <button class="bg-green-600 shadow-md h-11 mr-2 text-white px-2 py-1 w-28 rounded font-bold mt-6">PAY</button>
+              <button @click="isModal1Open = true" class="bg-green-600 shadow-md h-11 mr-2 text-white 
+                px-2 py-1 w-28 rounded font-bold mt-6"
+              >PAY</button>
           </div>
         </div>
-
+        <Modal v-if="isModal1Open" @close="isModal1Open = false">
+          <template #title>
+            Hello! this is where it all ends!
+          </template>
+          <template #body>
+            <p class="mt-3">Thank you! I am available for Hire!</p>
+            <p>
+              <a href="mailto:{aremutola@gmail.com}" class="flex justify-center">
+                <p class="font-bold p-2 text-red-600 text-lg sm:text-lg">SEND ME A MAIL</p>
+              </a>
+            </p>
+            <div class="text-center">
+              <button @click="isModal1Open = false" class="bg-red-600 rounded-md text-white p-1">Close</button>
+            </div>
+          </template>
+        </Modal>
     </div>
   </section>
 
@@ -102,8 +119,15 @@
 <script>
 import Appheader from '../components/Allheader';
 import Appfooter from '../components/Allfooter';
+import Modal from '../components/Modal';
+
+import { ref } from 'vue';
 export default {
-  components:{Appheader, Appfooter},
+  components:{Appheader, Appfooter, Modal},
+   setup() {
+      const isModal1Open = ref(false);
+      return { isModal1Open };
+   },
   data(){
     return{
       currentstep:1,

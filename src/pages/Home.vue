@@ -4,7 +4,7 @@
     <div class="px-5 mt-14">
       <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
          <div class="pb-5">
-          <img class="border-0 border-pink-500 mix-blend-screen bg-pink-500 rounded-full" src="../assets/images/istockphoto.jpg" alt="">
+          <img class="border-0 border-pink-500 mix-blend-screen bg-pink-500 rounded-full" src="../assets/images/istockphoto.webp" alt="">
         </div>
         <div class="text-white mt-10">
           <p class="text-5xl font-bold">CHOOSE TO GET SERVED,</p>

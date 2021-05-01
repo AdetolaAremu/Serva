@@ -19,7 +19,9 @@
       </div>
       <div class="mt-2">
         <label>Search</label>
-        <input type="text" v-model="search" placeholder="Search Restaurant" class="border border-gray-500 w-52 rounded-md ml-2">
+        <input type="search" v-model="search" placeholder="Search Restaurant" class="relative border border-gray-500 w-52 
+          rounded-md ml-2 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+        >
       </div>
     </div>
     <div class="grid text-center font-bold pl-9 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
@@ -45,13 +47,13 @@ export default {
       search:'',
       showfilters:true,
       foodimages: [
-        {url:require('../assets/images/amalaskye.jpg'), alt:'Amala Skye', nameofres:'Amala Skye'},
-        {url:require('../assets/images/amalaatiewedu.jpg'), alt:'Amala Special', nameofres:'Amala Special'},
-        {url:require('../assets/images/boli.jpg'), alt:'Boli', nameofres:'Boli Exqisite'},
-        {url:require('../assets/images/bread.jpg'), alt:'bread', nameofres:'EniBest Bread'},
-        {url:require('../assets/images/calabar.jpg'), alt:'Calabar', nameofres:'Mama Calabar'},
-        {url:require('../assets/images/confectionary.jpg'), alt:'Confection', nameofres:'Dora Confec'},
-        {url:require('../assets/images/fruits.jpg'), alt:'fruits', nameofres:'Bola Fruits'},
+        {url:require('../assets/images/amalaskye.webp'), alt:'Amala Skye', nameofres:'Amala Skye'},
+        {url:require('../assets/images/amalaatiewedu.webp'), alt:'Amala Special', nameofres:'Amala Special'},
+        {url:require('../assets/images/boli.webp'), alt:'Boli', nameofres:'Boli Exqisite'},
+        {url:require('../assets/images/bread.webp'), alt:'bread', nameofres:'EniBest Bread'},
+        {url:require('../assets/images/calabar.webp'), alt:'Calabar', nameofres:'Mama Calabar'},
+        {url:require('../assets/images/confectionary.webp'), alt:'Confection', nameofres:'Dora Confec'},
+        {url:require('../assets/images/fruits.webp'), alt:'fruits', nameofres:'Bola Fruits'},
         {url:require('../assets/images/smallchops.webp'), alt:'smallchops', nameofres:'Ketty Chops'}
       ]
     }
@@ -75,5 +77,8 @@ export default {
 </script>
 
 <style>
-
+::placeholder{
+  padding-left: 5px;
+  font-style: italic;
+}
 </style>
