@@ -4,7 +4,7 @@
     <ul class="top flex">
       <a href="About"><li class="mr-4">About</li></a>
       <a href="Buy"><li class="mr-4">Order</li></a>
-      <a href="https://github.com/AdetolaAremu" target="_blank"><li class="mr-4">Github</li></a>
+      <a href="https://github.com/AdetolaAremu/Serva" target="_blank"><li class="mr-4">Github</li></a>
       <a href="Dashboard"><li class="mr-4">Admin</li></a>
     </ul>
   </section>
