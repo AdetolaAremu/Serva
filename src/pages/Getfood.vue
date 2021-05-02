@@ -49,7 +49,7 @@ export default {
       foodimages: [
         {url:require('../assets/images/amalaskye.webp'), alt:'Amala Skye', nameofres:'Amala Skye'},
         {url:require('../assets/images/amalaatiewedu.webp'), alt:'Amala Special', nameofres:'Amala Special'},
-        {url:require('../assets/images/boli.webp'), alt:'Boli', nameofres:'Boli Exqisite'},
+        {url:require('../assets/images/boli.webp'), alt:'Boli', nameofres:'Boli Exquisite'},
         {url:require('../assets/images/bread.webp'), alt:'bread', nameofres:'EniBest Bread'},
         {url:require('../assets/images/calabar.webp'), alt:'Calabar', nameofres:'Mama Calabar'},
         {url:require('../assets/images/confectionary.webp'), alt:'Confection', nameofres:'Dora Confec'},

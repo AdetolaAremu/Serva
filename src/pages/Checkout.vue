@@ -25,7 +25,7 @@
               </div>
               <input class="rounded border-black border h-8 w-7/12
                 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500" type="number" 
-                v-model="quantity"
+                v-model.number="quantity"
               >
             </div>
               <div class="flex justify-between mt-3">
