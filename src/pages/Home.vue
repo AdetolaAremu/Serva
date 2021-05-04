@@ -12,7 +12,7 @@
           <div class="sm:w-full md:w-full lg:w-7/12">
             <p class="mt-6">Choose to get served in the best possible way</p>
             <p class="mt-1">Your order will be delivered to your doorstep</p>
-            <p class="mt-1">Choose from wide varities of options for you</p>
+            <p class="mt-1">Choose from our wide varities of options</p>
             <p class="mt-1">
               Such as <span class="font-bold">Food</span>, <span class="font-bold">Groceries</span>, 
               <span class="font-bold">Pharmaceutial</span> and <span class="font-bold">Gadgets</span> deliveries
